@@ -8,8 +8,9 @@ university_student_ID = input("Enter your university student ID: ")
 # 2- boolean condition to check if the student ID is correct
 if university_student_ID == ID:
     print("Access Granted")
-else:
+elif university_student_ID != ID:
     print("Access Denied")
+    exit()
 
 Name = input("Enter your name: ")
 Age = input("Enter your age: ")
